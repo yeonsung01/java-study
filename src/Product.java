@@ -28,7 +28,7 @@ public class Product {
         System.out.println("\n== 결재 정보 ===");
         System.out.println("상품 금액: " + totalPrice + "원");
         System.out.println("세금 (10%): " + (int)tax + "원");
-        System.out.println("최종 금액: " + (int)finalPrice + "원");gi
+        System.out.println("최종 금액: " + (int)finalPrice + "원")
 
 
 
