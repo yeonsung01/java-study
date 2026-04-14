@@ -1,4 +1,18 @@
 package java_basic_comprehensiv_exrcises;
 
 public class Problem2 {
+    public static void main(String[] args) {
+
+        int x = 7;
+        int y = 2;
+
+        int result1 = x / y;
+        double result2 = x / y;
+        double result3 = (double) x / y;
+
+        System.out.println("result1 = " + result1);
+        System.out.println("result2 = " + result2);
+        System.out.println("result3 = " + result3);
+
+    }
 }
