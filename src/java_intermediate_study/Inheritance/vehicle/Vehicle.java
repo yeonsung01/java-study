@@ -1,0 +1,30 @@
+package java_intermediate_study.Inheritance.vehicle;
+
+public class Vehicle {
+    protected String brand;
+    protected int speed;
+
+    public Vehicle(String brand) {
+        this.brand = brand;
+        this.speed = 0;
+    }
+
+    public void accelerate(int amount) {
+        speed += amount;
+        System.out.println(brand + "속도 증가:" + speed + "km/h");
+    }
+
+    public void brake(int amount) {
+        speed = Math.max(0, speed-amount);
+        System.out.println(brand + "속도 감소:" + speed + "km/h");
+    }
+
+    public void stop(){
+        System.out.println(brand + "정지");
+    }
+
+    public void showInfo(){
+        System.out.println("브랜드:" + brand);
+        System.out.println("현재 속도:" + "km/h");
+    }
+}
